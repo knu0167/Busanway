@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.allpanel {
+	padding: 5px;
+}
+.infom {
+	border: 1px solid black;
+	width: 40%;
+	padding: 12px;
+	float: left;
+}
+.infom input {
+	width: 300px;
+	margin: 12px 0px;
+}
+.img input {
+	height: 300px;
+	text-align: center;
+	margin: 0px 50px 0px 0px; 
+}
+.ex input {
+	width: 662px;
+	height: 200px;
+}
+.review {
+	border: 1px solid black;
+	float: right;
+	padding: 10px;
+	width: 45%;
+	height: 712px;
+}
+.review input {
+	margin: 5px;
+}
+.review_ex input {
+	width: 90%;
+	height: 150px;
+}
+.review_btn {
+	width: 10px;
+}
