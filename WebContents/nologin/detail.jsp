@@ -1,10 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet"  href="/css/sidebar.css" />
-<link rel="stylesheet"  href="/css/main.css" />
+<link rel="stylesheet"  href="/css/switch.css" />
+<link rel="stylesheet"  href="/css/infom.css" />
 <style></style>
 <script>
 </script>
@@ -34,29 +37,38 @@
    <b>api</b>
   </div>
 </div>
-<div id="main">
-  <div id="main1">
-    <input type="text" value="" style="height:30px;">
-    <input type="button" value="검색">
+<div class="allpanel">
+  <div class="infom">
+    <div class="wrapper">
+      <input type="checkbox" id="switch">
+      <label for="switch" class="switch_label">
+        <span class="onf_btn"></span>
+      </label><br>
+      <input type="text" value="가게이름" /><br>
+    </div>
+    <div class="img">
+      <input type="text" value="가게사진" />
+      <input type="text" value="대표메뉴" />
+    </div>
+    <div class="store">
+      <input type="text" value="가게위치" /><br>
+      <input type="text" value="대표메뉴" />
+    </div>
+    <div class="ex">
+      <input type="text" value="가게설명" />
+    </div>
   </div>
-  <div id="main2">
-    <div id="main3">
- 	  <a href=""><img src ="/img/img1.png" width="300px" height="300px"></a>
- 	  <h2>볼거리 평점</h2>
- 	</div>
- 	<div id="main4">
-      <a href=""><img src ="/img/img2.png" width="300px" height="300px" ></a>
- 	  <h2>놀거리 평점</h2>
- 	</div>
- 	<div id="main5">
-	  <a href=""><img src ="/img/img3.png" width="300px" height="300px"></a>
- 	  <h2>먹거리 평점</h2>
- 	</div>
+<div class="review">
+  <div class="review_text">
+    <input type="text" value="리뷰" /><br>
   </div>
-  <div id="main6">
- 	<h5>고객센터 : 김남묵 집</h5>
- 	<h5>주소 : 부산 사상구 엄궁동 신흥동백 104동 403호</h5>
- 	<h5>전화번호 : 010-9928-6198</h5>
+  <div class="review_ex">
+    <input type="text" value="내용설명" /><br>
+  </div>
+  <div class="review_btn">
+    <input type="button" value="작성" />
+  </div>
+    <label>---------------------------------------------------------------------------------------------------------------------------------</label> 
   </div>
 </div>
 </body>

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+h2{
+	text-align:center;
+}
+.yong {
+	width:300px;
+	height:300px;
+}
+div#in {
+	/* border: 1px solid red; */
+	margin: 0 0 0 500px;
+}

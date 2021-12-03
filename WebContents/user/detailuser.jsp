@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
     
 <%
-    String name = request.getParameter("name");
+    String user = request.getParameter("user");
 %>
 
 <!DOCTYPE html>
@@ -18,25 +18,30 @@
 </script>
 </head>
 <body>
- <div class="sidebar"> 
-   <h2>부산 삼거리</h2>
-     <%=name %>님!<br>
- <div class="btn1">
-   <input type="button" value="로그아웃" id="logout" />
-   <input type="button" value="마이페이지" id="mypage" />
- </div>
- <div class="menu">
-   <a href="" >공지사항</a><br>
-   <a href="/view/bols.jsp" >볼거리</a><br>
-   <a href="/view/nols.jsp" >놀거리</a><br>
-   <a href="/view/muks.jsp" >먹거리</a><br>
-   <a href="" >Q & A</a><br>
- </div>
- <div class="location">
+<div class="sidebar">
+  <img src="https://image.shutterstock.com/image-vector/way-vector-icon-illustration-design-600w-1577617420.jpg" 
+   style="width: 30px; height: 30px;">
+    <a href="/user/userlogin.jsp">부산 삼거리</a>
+  <img src="https://image.shutterstock.com/image-vector/way-vector-icon-illustration-design-600w-1577617420.jpg" 
+   style="width: 30px; height: 30px;"><br>
+     <%=user %>user님!<br>
+  <div class="btn1">
+    <input type="submit" value="로그아웃">
+	<input type="submit" value="마이페이지">
+  </div>
+  </div>
+  <div class="menu">
+    <a href="/user/gongiuser.jsp" >공지사항</a><br>
+    <a href="/user/bolsuser.jsp" >볼거리</a><br>
+    <a href="/user/nolsuser.jsp" >놀거리</a><br>
+    <a href="/user/muksuser.jsp" >먹거리</a><br>
+    <a href="/user/qnauser.jsp" >Q & A</a><br>
+  </div>
+  <div class="location">
    <h3 style="color: black">지역날씨</h3><br>
    <b>api</b>
- </div>
- </div>
+  </div>
+</div>
  <div class="allpanel">
   <div class="infom">
    <div class="wrapper">

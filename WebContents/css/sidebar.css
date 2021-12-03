@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+img {
+	width: 10px;
+	height: 10px;
+}
+
 .sidebar {
 	background: linear-gradient(#0EDAED, #DCF9FC);
 	color: white;
